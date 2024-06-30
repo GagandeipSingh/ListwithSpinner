@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ListwithSpinner</string>
+    <string name="items">Items</string>
+    <string name="order">Order</string>
+    <string name="select_item">Select Item..</string>
+    <string name="quantity">Quantity :</string>
+    <string name="dec">-</string>
+    <string name="_0">0</string>
+    <string name="inc">+</string>
+    <string name="add_item">Add Item</string>
+    <string name="txt">Add Item..</string>
+    <string name="itemName">Enter Item Name</string>
+    <string name="enter_qty">Enter Quantity</string>
+    <string name="add">Add</string>
+</resources>
