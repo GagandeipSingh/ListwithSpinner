@@ -75,7 +75,10 @@ class MainActivity : AppCompatActivity() {
 
             navController.addOnDestinationChangedListener{ _,destination ,_ ->
             when(destination.id){
-                R.id.firstFragment -> binding.bottomNav.menu.findItem(R.id.items).isChecked = true
+                R.id.firstFragment ->{
+                    binding.bottomNav.menu.findItem(R.id.items).isChecked = true
+                    binding.fab.visibility = View.VISIBLE
+                }
                 R.id.secondFragment -> {
                     binding.bottomNav.menu.findItem(R.id.order).isChecked = true
                     binding.fab.visibility = View.GONE

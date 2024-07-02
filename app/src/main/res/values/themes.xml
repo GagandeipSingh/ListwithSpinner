@@ -10,7 +10,6 @@
         <item name="itemIconTint">@color/my_light_primary</item>
 <!--        <item name="itemTextColor">@color/my_light_primary</item>-->
         <item name="rippleColor">@color/my_light_primary</item>
-        <item name="itemActiveIndicatorStyle">@color/my_light_primary</item>
     </style>
 
     <style name="Theme.ListwithSpinner" parent="Base.Theme.ListwithSpinner">
